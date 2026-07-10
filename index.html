@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arfar7 website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bgCanvas"></canvas>
+
+<header class="navbar">
+  <div class="container">
+    <div class="nav-top">
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <button class="theme-toggle" id="themeToggle" title="تغییر پوسته">☀️</button>
+      <h1 class="logo">Arfar7</h1>
+    </div>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#home">خانه</a></li>
+        <li><a href="#about">درباره من</a></li>
+        <li><a href="#skills">مهارت ها</a></li>
+        <li><a href="#portfolio">نمونه کار</a></li>
+        <li><a href="#contact">همکاری</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="hi">سلام</p>
+      <h2>من <span>امیر حسینم</span></h2>
+      <p class="desc">برنامه نویس و علاقه مند به تکنولوژی</p>
+      <a href="https://github.com/Arfa1r" target="_blank" class="btn">نمونه کارها در گیت‌هاب</a>
+    </div>
+    <div class="hero-img-wrapper">
+      <div class="profile-glow"></div>
+      <img src="profile.png" alt="پروفایل" class="profile-img">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2 class="section-title">درباره من</h2>
+    <p class="about-text-long">
+      من یک توسعه‌دهنده و تحلیل‌گر داده مشتاق هستم که به حل مسائل پیچیده با استفاده از کدهای بهینه علاقه دارم. تمرکز اصلی من روی ساخت مدل‌های هوشمند و کاربردی یادگیری ماشین و عمیق، در کنار طراحی رابط‌های کاربری جذاب و پویا است. همیشه در تلاش برای یادگیری ابزارهای جدید و ارتقای مهارت‌های فنی‌ام هستم تا بتوانم ایده‌ها را به واقعیت تبدیل کنم.
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <div class="container">
+    <h2 class="section-title">مهارت ها</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-top"><span>HTML</span><span>۹۵٪</span></div>
+        <div class="bar"><div class="fill" data-percent="95"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>CSS</span><span>۹۰٪</span></div>
+        <div class="bar"><div class="fill" data-percent="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>Python</span><span>۹۰٪</span></div>
+        <div class="bar"><div class="fill" data-percent="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>JavaScript</span><span>۶۰٪</span></div>
+        <div class="bar"><div class="fill" data-percent="60"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>Pandas</span><span>۶۵٪</span></div>
+        <div class="bar"><div class="fill" data-percent="65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>NumPy</span><span>۵۵٪</span></div>
+        <div class="bar"><div class="fill" data-percent="55"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>Scikit-learn</span><span>۴۰٪</span></div>
+        <div class="bar"><div class="fill" data-percent="40"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top"><span>PyTorch</span><span>۲۵٪</span></div>
+        <div class="bar"><div class="fill" data-percent="25"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container">
+    <div class="services-list">
+      <div class="service-list-item">
+        <h3>📊 تحلیل داده</h3>
+        <p>پردازش، پاکسازی و تحلیل داده‌ها با پایتون و ابزارهای علم داده</p>
+      </div>
+      <div class="service-list-item">
+        <h3>🤖 یادگیری ماشین</h3>
+        <p>ساخت، آموزش و ارزیابی مدل‌های یادگیری ماشین و یادگیری عمیق</p>
+      </div>
+      <div class="service-list-item">
+        <h3>💻 توسعه نرم‌افزار</h3>
+        <p>طراحی و توسعه وب‌سایت و ابزارهای نرم‌افزاری کاربردی</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <h2 class="section-title">نمونه کارها</h2>
+    <div class="portfolio-cards single">
+      <div class="portfolio-card">
+        <h3>سیستم پیشنهاد فیلم</h3>
+        <p>یک سیستم پیشنهاددهنده فیلم مبتنی بر پایتون و یادگیری ماشین</p>
+        <a href="https://github.com/Arfa1r/movie-recommendation-system" target="_blank">مشاهده در گیت‌هاب</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">تماس با من</h2>
+    <div class="contact-info-box">
+      <ul class="contact-list">
+        <li>
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="#0088cc"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.62.15-.15 2.7-2.46 2.75-2.67.01-.03.01-.14-.06-.2-.07-.06-.17-.04-.24-.02-.1.02-1.7 1.08-4.8 3.16-.45.31-.87.46-1.25.45-.42-.01-1.23-.24-1.83-.43-.74-.24-1.33-.37-1.28-.79.03-.22.33-.45.91-.69 3.56-1.55 5.93-2.57 7.12-3.06 3.39-1.4 4.09-1.64 4.55-1.65.1 0 .32.02.47.14.12.1.16.24.18.34.02.07.03.22.01.32z"/></svg>
+          </span>
+          <span class="contact-label">تلگرام:</span>
+          <a href="https://t.me/Arf1r" target="_blank" class="contact-link">Arf1r</a>
+        </li>
+        <li>
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="#ea4335"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </span>
+          <span class="contact-label">ایمیل:</span>
+          <a href="mailto:arfar.s1758@gmail.com" class="contact-link">arfar.s1758@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" class="github-icon"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.137 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          </span>
+          <span class="contact-label">گیت‌هاب:</span>
+          <a href="https://github.com/Arfa1r" target="_blank" class="contact-link">Arfa1r</a>
+        </li>
+        <li>
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="#e1306c"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </span>
+          <span class="contact-label">اینستاگرام:</span>
+          <a href="https://instagram.com/am1r.hs7" target="_blank" class="contact-link">am1r.hs7</a>
+        </li>
+        <li>
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="#0077b5"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </span>
+          <span class="contact-label">لینکدین:</span>
+          <a href="https://linkedin.com/in/arfa1r17" target="_blank" class="contact-link">arfa1r17</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
